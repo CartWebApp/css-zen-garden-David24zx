@@ -20,16 +20,19 @@
 .Cyberpunk-2077-4-hsla { color: hsla(183, 100, 50, 1); }
 .Cyberpunk-2077-5-hsla { color: hsla(0, 0, 98, 1); }
 
+* {
+    font-size: medium;
+    
+}
+
+img {
+    max-width: 100%;
+}
 
 #css-zen-garden .page-wrapper {
-background-image: url(Men_women.webp);
+background-image: url(night-city-cyberpunk-2077-moewalls-com.gif);
 background-repeat: no-repeat;
-animation: pulse 20s infinite;
+image-rendering: auto;
 }
 
-@keyframes pulse {
-    0%, 100% {
-        background-image: url(Men_women.webp);
-    }
-    50% {background-image: url(Men_women.webp);} 
-}
+
