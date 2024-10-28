@@ -141,3 +141,26 @@ body {
     border: 0.125rem solid #00F0FF;
     box-shadow: 0 0 10px #00F0FF;
 }
+
+#zen-resources.zen-resources {
+    padding: 1.25rem;
+    background-color: black;
+    border: 0.125rem solid red;
+    box-shadow: 0 0 10px red; 
+    position: absolute;
+    
+
+}
+
+
+a:visited {
+    color: red;
+}
+
+a:link {
+    color: yellow;
+}
+
+a:hover {
+    color: white;
+}
