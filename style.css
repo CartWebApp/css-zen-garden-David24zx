@@ -85,7 +85,6 @@ body {
 }
 
 body::before {
-    content: "";
     position: absolute;
     top: 0;
     left: 0;
@@ -95,43 +94,58 @@ body::before {
 }
 
 .page-wrapper {
-    max-width: 75rem; 
+    max-width: 75rem;
     margin: 0 auto;
-    padding: 1.25rem; 
+    padding: 1.25rem;
 
-.intro {
-    background-color: #1a1a1a;
-    padding: 1.25rem; /* 20px to rem */
-    border: 0.125rem solid #ff79c6; 
-    /* Neon pink border */
-    box-shadow: 0 0 0.625rem #ff79c6; 
-    /* Neon glow */
-}
+    .intro {
+        background-color: #1a1a1a;
+        padding: 1.25rem;
+        border: 0.125rem solid #ff79c6;
+        /* Neon pink border */
+        box-shadow: 0 0 0.625rem #ff79c6;
+        /* Neon glow */
+    }
 
-.intro header {
-    text-align: center;
-}
+    .intro header {
+        text-align: center;
+    }
 
-.intro h1 {
-    font-size: 3rem; 
-    margin: 0;
-    color: #FCEE09; 
-    text-shadow: 0 0 0.625rem #00fff7; 
-}
+    .intro h1 {
+        font-size: 3rem;
+        margin: 0;
+        color: #FCEE09;
+        text-shadow: 0 0 0.625rem #00fff7;
+    }
 
-.intro h2 {
-    font-size: 1.5rem; /* Font size */
-    color: #FF003C; 
-    text-shadow: 0 0 0.625rem #ff79c6; 
-}
+    .intro h2 {
+        font-size: 1.5rem;
+        color: #FF003C;
+        text-shadow: 0 0 0.625rem #ff79c6;
+    }
 
-.summary,
-.preamble {
-    margin: 2rem 0; 
-}
+    .summary,
+    .preamble {
+        margin: 2rem 0;
+    }
 
-.summary p,
-.preamble p {
-    line-height: 1.6;
-    color: #e0e0e0; /* Light gray */
-}
+    .summary p,
+    .preamble p {
+        line-height: 1.6;
+        color: #e0e0e0;
+        /* Light gray */
+    }
+
+    .main.supporting {
+        padding: 20px;
+        background-color: #1a1a1a;
+        border: 0.125rem solid #FCEE09;
+        box-shadow: 0 0 10px #FCEE09;
+    }
+
+    #design-selection.design-selection {
+        padding: 20px;
+        background-color: #1a1a1a;
+        border: 0.125rem solid #00F0FF;
+        box-shadow: 0 0 10px #00F0FF;
+    }
