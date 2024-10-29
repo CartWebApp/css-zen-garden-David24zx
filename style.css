@@ -139,15 +139,23 @@ body {
 #design-selection.design-selection {
     padding: 1.25rem;
     background-color: #1a1a1a;
-    border: 0.125rem solid #00F0FF;
-    box-shadow: 0 0 10px #00F0FF;
+    /* border: 0.125rem solid #00F0FF;
+    box-shadow: 0 0 10px #00F0FF; */
+}
+
+
+#design-archives.design-archives {
+    background-color: black;
+    padding: 1.25rem;
+    /* border: 0.125rem solid purple;
+    box-shadow: 0 0 10px purple; */
 }
 
 #zen-resources.zen-resources {
     background-color: black;
     padding: 1.25rem;
-    border: 0.125rem solid red;
-    box-shadow: 0 0 10px red;
+    /* border: 0.125rem solid red;
+    box-shadow: 0 0 10px red; */
 }
 
 a:link {
@@ -170,4 +178,12 @@ h3,::selection {
 
 :only-child {
     color: red;
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 0.125rem solid red;
+    box-shadow: 0 0 10px red;
 }
