@@ -66,6 +66,9 @@
 
 @import url("https://use.typekit.net/bvt6aac.css");
 
+.page-wrapper {
+    opacity: 85%;
+}
 
 :root {
     font-size: medium;
@@ -139,19 +142,28 @@ body {
 #design-selection.design-selection {
     padding: 1.25rem;
     background-color: #1a1a1a;
-    border: 0.125rem solid #00F0FF;
-    box-shadow: 0 0 10px #00F0FF;
+    /* border: 0.125rem solid #00F0FF;
+    box-shadow: 0 0 10px #00F0FF; */
+}
+
+
+#design-archives.design-archives {
+    background-color: black;
+    padding: 1.25rem;
+    /* border: 0.125rem solid purple;
+    box-shadow: 0 0 10px purple; */
 }
 
 #zen-resources.zen-resources {
     background-color: black;
     padding: 1.25rem;
-    border: 0.125rem solid red;
-    box-shadow: 0 0 10px red;
+    /* border: 0.125rem solid red;
+    box-shadow: 0 0 10px red; */
 }
 
 a:link {
     color: #FCEE09;
+    text-shadow:0 0 10px #FCEE09;
 }
 
 a:visited {
@@ -170,5 +182,52 @@ h3,
 }
 
 :only-child {
+    /* color: red; */
+}
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    border: 0.125rem solid red;
+    box-shadow: 0 0 10px red;
+    position: relative;
+    right: 25em;
+}
+
+a:active {
+    color: blueviolet;
+}
+
+p:nth-child(2) {
+    color: #ff79c6;
+    text-shadow: 0 0 10px #ff79c6;
+}
+
+p::before {
+    background-color: #FCEE09;
+    content: "Yo";
     color: red;
+
+}
+
+p:after {
+    background-color: #121212;
+    content: "sh" ;
+    color: beige;
+}
+
+p::first-line{
+color: yellow;
+text-shadow: 0 0 10px yellow;
+}
+
+:not(p) {
+    animation:gabe 12s ease-in-out infinite
+}
+
+    @keyframes gabe {
+        0% {
+            
+        }
 }
