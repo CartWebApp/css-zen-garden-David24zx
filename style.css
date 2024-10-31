@@ -178,11 +178,15 @@ h3,
 
 
 .page-wrapper {
-    max-width: 60rem; 
+    display: flex;
+    justify-content: flex-start;
+    max-width: 60rem;
     margin: 0 auto;
     padding: 1.25rem;
     opacity: 85%;
 }
+
+
 
 .wrapper {
     display: flex;
@@ -191,7 +195,7 @@ h3,
     border: 0.125rem solid red;
     box-shadow: 0 0 10px red;
     position: relative;
-    right: 0; 
+    right: 0;
     top: 0;
 }
 
@@ -218,7 +222,20 @@ p::first-line {
     text-shadow: 0 0 10px yellow;
 }
 
-:not() {
+:not() {}
 
+a.design-name {
+    color: orange;
+    text-shadow: 0 0 10px orange;
 }
 
+div>p {
+    color: #008cff;
+    text-shadow: 0 0 10px #008cff;
+}
+
+[role="navigation"] {
+    list-style-type: none;
+    padding: 0%;
+    margin: 0%;
+}
