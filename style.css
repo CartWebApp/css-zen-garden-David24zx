@@ -162,10 +162,11 @@ a:hover {
     color: white;
 }
 
-h3,::selection {
-    color: #FAFAFA ;
-   border-style: none; 
-   text-shadow: 0 0 10px #FAFAFA;
+h3,
+::selection {
+    color: #FAFAFA;
+    border-style: none;
+    text-shadow: 0 0 10px #FAFAFA;
 }
 
 :only-child {
