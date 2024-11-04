@@ -306,8 +306,6 @@ p:last-of-type {
     text-shadow: 0 0 10px red;
 }
 
-p:last-child {}
-
 [role=banner] {
     padding: 3%;
 }
@@ -316,4 +314,73 @@ p:last-child {}
     background-origin: content-box;
 }
 
-[]
+:first-child {
+    color: #00F0FF;
+    text-shadow: 0 0 10px #00F0FF;
+}
+
+:first-of-type {
+    color: #FCEE09;
+    text-shadow: 0 0 10px #FCEE09;
+}
+
+:last-child {
+    color: #FF003C;
+    text-shadow: 0 0 10px #FF003C;
+}
+
+div {
+    background-color: rgba(255, 0, 59, 0.1);
+    padding: 1rem;
+    /* border: 0.125rem solid #FF003C;
+    box-shadow: 0 0 10px #FF003C; */
+}
+
+div p {
+    color: #FAFAFA;
+    text-shadow: 0 0 5px #FAFAFA;
+    margin-bottom: 1rem;
+}
+
+div>p {
+    color: #00F0FF;
+    text-shadow: 0 0 10px #00F0FF;
+}
+
+div+p {
+    color: #FCEE09;
+    text-shadow: 0 0 10px #FCEE09;
+}
+
+p~ul {
+    color: #FCEE09;
+    border: 0.125rem solid #FCEE09;
+    box-shadow: 0 0 10px #FCEE09;
+}
+
+p:focus {
+    outline: 0.125rem solid #00F0FF; 
+}
+
+a[href*="resources"] {
+    color: #FCEE09;
+    text-shadow: 0 0 10px #FCEE09;
+}
+ 
+a[abbr$=".org"] {
+    color: gold;
+    text-shadow: 0 0 10px gold;
+}
+
+[h3~=requirements] {
+    color: fuchsia;
+    text-shadow:0 0 10px fuchsia ;
+}
+
+[lang|=en] {
+    margin: 1%;
+}
+
+a[href^="https"] {
+    padding: 0%;
+}
